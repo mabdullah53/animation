@@ -15,10 +15,6 @@ You can customize it further if needed!
 
 ## Getting Started
 
-![My Animation](
-https://github.com/user-attachments/assets/dc72773d-4f50-4e2c-ad37-c53b7a80e858
- )
-[Click here to view the code](link-to-your-code)
 
 ### Prerequisites
 
