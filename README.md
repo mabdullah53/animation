@@ -17,14 +17,13 @@ You can customize it further if needed!
 
 
 
-https://github.com/user-attachments/assets/94f4f3b7-26f8-4a25-991d-5ec983c2cad8     https://github.com/user-attachments/assets/e354b27b-195b-478c-a703-003df4d96b68
 
 
+| ![Screenshot 1](https://github.com/user-attachments/assets/0cbe878f-f3d4-4f2d-a0eb-b26613db1ea6) | ![Screenshot 2](link_to_screenshot_2) | ![Screenshot 3](link_to_screenshot_3) |
+|-----------------------------------------|-----------------------------------------|-----------------------------------------|
 
-
-
-
-
+| ![Screenshot 4](link_to_screenshot_4) | ![Screenshot 5](link_to_screenshot_5) | ![Screenshot 6](link_to_screenshot_6) |
+|-----------------------------------------|-----------------------------------------|-----------------------------------------|
 
 
 
