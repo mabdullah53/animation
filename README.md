@@ -3,7 +3,7 @@
 
 ## Features
 
-- Animation
+- Flutter Complete Animation
 
 
   
@@ -15,17 +15,9 @@ You can customize it further if needed!
 
 ## Getting Started
 
-
-
-
 https://github.com/user-attachments/assets/4c8b5dea-93f9-4d0f-83cc-3fbad6912061
 
-
-
-
-
-
-[Animated movie App click]
+[Animated movie App Read Code]
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/animated_movie_app)
 
 
