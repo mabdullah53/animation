@@ -1,5 +1,7 @@
 # animationtutorial
 
+This is a Food Recepe App built using Flutter.
+
 ## Features
 
 - Animation
