@@ -15,7 +15,9 @@ You can customize it further if needed!
 
 ## Getting Started
 
-![Animated movie app] https://github.com/user-attachments/assets/eaa8bdb9-62e5-495f-b7ae-95020d523107 
+![Animated movie app] https://github.com/user-attachments/assets/0ce8e322-0d9d-4c9c-962a-b4a6503a6b92
+
+
 
 
 
