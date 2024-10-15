@@ -15,16 +15,7 @@ You can customize it further if needed!
 
 ## Getting Started
 
-
-
-
-
-| ![Screenshot 1](https://github.com/user-attachments/assets/0cbe878f-f3d4-4f2d-a0eb-b26613db1ea6) | ![Screenshot 2](link_to_screenshot_2) | ![Screenshot 3](link_to_screenshot_3) |
-|-----------------------------------------|-----------------------------------------|-----------------------------------------|
-
-| ![Screenshot 4](link_to_screenshot_4) | ![Screenshot 5](link_to_screenshot_5) | ![Screenshot 6](link_to_screenshot_6) |
-|-----------------------------------------|-----------------------------------------|-----------------------------------------|
-
+![Animated movie app](https://private-user-images.githubusercontent.com/165842713/376706142-60534272-0b15-410a-9d03-ea8f06d5b09f.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwMTA0NjQsIm5iZiI6MTcyOTAxMDE2NCwicGF0aCI6Ii8xNjU4NDI3MTMvMzc2NzA2MTQyLTYwNTM0MjcyLTBiMTUtNDEwYS05ZDAzLWVhOGYwNmQ1YjA5Zi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAxNVQxNjM2MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NzYyM2UwMDgyNGE2YWFmMmM0NmJmMTFjZDZkZGU1NmRiODliNDJhYzA0NTQwOTBjYzkxNGEwODk1YWZlNDA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.agRnvJ8BHsmI0JJ7nh07jbgqz_JTM2TCjmPSRFednts)
 
 
 
