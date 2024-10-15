@@ -19,6 +19,8 @@ You can customize it further if needed!
 
 https://github.com/user-attachments/assets/94f4f3b7-26f8-4a25-991d-5ec983c2cad8
 
+<img src="https://github.com/user-attachments/assets/0ed827d5-0703-4347-a492-34fe60c98c6b" alt="Screen Name width="500"/>
+
 
 
 [Animated movie App click]
