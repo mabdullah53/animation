@@ -16,8 +16,13 @@ You can customize it further if needed!
 ## Getting Started
 
 
-https://github.com/user-attachments/assets/386f581f-0c8a-4285-a79f-9b20c3438d13
-[Animated movie App click](https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/animated_movie_app)
+
+https://github.com/user-attachments/assets/94f4f3b7-26f8-4a25-991d-5ec983c2cad8
+
+
+
+[Animated movie App click]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/animated_movie_app)
 
 
 
