@@ -21,6 +21,18 @@ https://github.com/user-attachments/assets/4c8b5dea-93f9-4d0f-83cc-3fbad6912061
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/animated_movie_app)
 
 
+https://github.com/user-attachments/assets/eaf06a5f-f329-460b-9cdb-e2f66d01f0dd
+
+[buttom curve navigation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/buttom%20curve%20navigationn)
+
+
+
+
+
+
+
+
 
 ### Prerequisites
 
