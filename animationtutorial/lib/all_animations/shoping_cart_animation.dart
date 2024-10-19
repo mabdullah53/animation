@@ -12,10 +12,12 @@ class _ShoppingCartButtonState extends State<ShoppingCartButton> {
   bool isExpanded = false;
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Shopping Cart Button Animation"),
+        title: Center(child: const Text("Shopping Cart Button Animation")),
       ),
+
       body: Center(
         child: GestureDetector(
           onTap: () {

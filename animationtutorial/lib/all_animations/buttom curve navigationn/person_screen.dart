@@ -12,7 +12,7 @@ class _PersonScreenState extends State<PersonScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('person Screen'),
+        title: Center(child: Text('person Screen')),
       ),
     );
   }

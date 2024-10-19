@@ -24,6 +24,9 @@ class _FABcircularAnimationState extends State<FABcircularAnimation>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('Circular Menu Animation')),
+      ),
       body: Center(
         child: RadialAnimatedMenu(
           controller: controller,

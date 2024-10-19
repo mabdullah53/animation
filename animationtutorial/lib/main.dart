@@ -12,12 +12,16 @@ import 'all_animations/animated_movie_app/screeen/movie.dart';
 import 'all_animations/animatedd_builderr.dart';
 import 'all_animations/buttom curve navigationn/bottom_navigations_animation.dart';
 import 'all_animations/button_animation.dart';
+import 'all_animations/download_animations/download_button_animation.dart';
 import 'all_animations/fab_circular_animation.dart';
 import 'all_animations/hidee_appbaar.dart';
+import 'all_animations/list_view_animationss/list_view_animation.dart';
+import 'all_animations/moving_objects_animations/moving_object_animation.dart';
 import 'all_animations/routes_aniimations/routes_animations.dart';
 import 'all_animations/scrooll_list/scrol_list.dart';
 import 'all_animations/shimmer_loading_animation/shimmer_loder_animation.dart';
 import 'all_animations/shoping_cart_animation.dart';
+import 'all_animations/swipeable_button_animation.dart';
 import 'all_animations/swipper_animations/swipper_animation.dart';
 import 'all_animations/text_aniimation.dart';
 import 'all_animations/textt_slide_animations.dart';
@@ -47,7 +51,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MovieDisplay(),
+      home: const FABcircularAnimation(),
     );
   }
 }

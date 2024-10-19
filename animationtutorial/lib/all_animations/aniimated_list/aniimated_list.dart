@@ -1,179 +1,215 @@
-import 'package:animationtutorial/all_animations/aniimated_list/aniimation_model.dart';
-import 'package:flutter/material.dart';
 
-class AniimatedList extends StatefulWidget {
-  const AniimatedList({super.key});
+import 'package:flutter/material.dart';
+import '../list_view_animationss/list_view_animation_model.dart';
+
+
+class MyAnimatedList extends StatefulWidget {
+  const MyAnimatedList({super.key});
 
   @override
-  State<AniimatedList> createState() => _AniimatedListState();
+  _MyAnimatedListState createState() => _MyAnimatedListState();
 }
 
-class _AniimatedListState extends State<AniimatedList> {
+class _MyAnimatedListState extends State<MyAnimatedList>
+    with TickerProviderStateMixin {
+  final List<User> selectedUsers = [];
 
-  final List<User> selectedUser = [];
-  final GlobalKey<AnimatedListState> itemKey = GlobalKey<AnimatedListState>();
-  final GlobalKey<AnimatedListState> selectedKey = GlobalKey<AnimatedListState>();
+  final GlobalKey<AnimatedListState> listKey = GlobalKey<AnimatedListState>();
+  final GlobalKey<AnimatedListState> selectedListKey =
+  GlobalKey<AnimatedListState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-         backgroundColor: Colors.white,
       body: SafeArea(
         child: Container(
-          padding: EdgeInsets.only(
-            left: 25,
-            right: 25,
-            top: 10,
-          ),
+          padding: const EdgeInsets.only(right: 25, left: 25, top: 10),
+          color: Colors.white,
           child: Column(
             children: [
-              SizedBox(height: 20,),
+              const SizedBox(height: 35),
               Container(
                 height: 200,
-                width: double.infinity,
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                   vertical: 20,
                   horizontal: 10,
                 ),
                 decoration: BoxDecoration(
                   color: Colors.black12,
-                  borderRadius: BorderRadius.circular(30),
+                  borderRadius: BorderRadius.circular(25),
                 ),
                 child: Column(
                   children: [
-                    Text('Selected Member'),
-                    SizedBox(height: 20,),
-
+                    const Text("Selected members"),
+                    const SizedBox(height: 20),
+                    // display selected items
                     Expanded(
-                        child: AnimatedList(
-                          key: selectedKey,
-                          scrollDirection: Axis.horizontal,
-                          initialItemCount: selectedUser.length,
-                          itemBuilder: (context,index,animation){
-                            return Padding(
-                                padding: EdgeInsets.only(
-                                  right: 20,
-                                ),
-                              child: FadeTransition(
-                                opacity: animation,
-                                child: Column(
-                                children: [
-                                  SizedBox(width: 50,
-                                   child: Text(user[index].name,style: TextStyle(
-                                     fontWeight: FontWeight.bold
-                                   ),),
-                                  ),
-                                  SizedBox(
-                                    height: 5,
-                                  ),
-                                  Stack(
-                                    children: [
-                                      Positioned(
-                                          child: SizedBox(height: 70,
-                                          width: 70,
-                                            child: CircleAvatar(
-                                              backgroundImage: NetworkImage(
-                                                user[index].image
-                                              ),
-                                            ),
-                                          )),
-                                      Positioned(
-                                          child: GestureDetector(
-                                            onTap: (){
-
-                                            },
-                                            child: Container(
-                                              height: 20,
-                                              width: 20,
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape.circle,
-                                                border: Border.all(
-                                                  color: Colors.white,
-                                                  width: 3
-                                                )
-                                              ),
-                                              child: Center(
-                                                child: Icon(
-                                                  Icons.close,
-                                                  size: 15,
-                                                ),
-                                              ),
-                                            ),
-                                          )),
-                                    ],
-                                  )
-                                ],
-                              ),
-                              ),
-                            );
-                          },
-                        ))
+                      child: AnimatedList(
+                        scrollDirection: Axis.horizontal,
+                        key: selectedListKey,
+                        initialItemCount: selectedUsers.length,
+                        itemBuilder: (context, index, animation) {
+                          return displaySelectedUser(
+                            user: selectedUsers[index],
+                            index: index,
+                            animation: animation,
+                          );
+                        },
+                      ),
+                    ),
                   ],
                 ),
               ),
+              // display items
+              const SizedBox(height: 25),
+              Expanded(
+                child: AnimatedList(
+                  key: listKey,
+                  initialItemCount: users.length,
+                  itemBuilder: (context, index, animation) {
+                    return displayUser(
+                      user: users[index],
+                      index: index,
+                      animation: animation,
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 
-              SizedBox(height: 20,),
+  displaySelectedUser({
+    required User user,
+    index,
+    animation,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.only(right: 20),
+      child: FadeTransition(
+        opacity: animation,
+        child: Column(
+          children: [
+            SizedBox(
+              width: 50,
+              child: Text(
+                user.name,
+                maxLines: 1,
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+            ),
+            const SizedBox(height: 5),
+            Stack(
+              children: [
+                Positioned(
+                  child: SizedBox(
+                    width: 70,
+                    height: 70,
+                    child: CircleAvatar(
+                      backgroundColor: Colors.deepPurpleAccent,
+                      backgroundImage: NetworkImage(user.image),
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 0,
+                  right: 0,
+                  child: GestureDetector(
+                    onTap: () {
+                      listKey.currentState?.insertItem(users.length,
+                          duration: const Duration(milliseconds: 500));
+                      selectedListKey.currentState?.removeItem(
+                        index,
+                            (context, animation) => displaySelectedUser(
+                            user: user, index: index, animation: animation),
+                        duration: const Duration(milliseconds: 300),
+                      );
 
-              Expanded(child:
-               AnimatedList(
-                 key: itemKey,
-                 initialItemCount: user.length,
-                itemBuilder: (context,index,animation){
-                  return GestureDetector(
-                    onTap: (){
-                    setState(() {
-                      if(selectedUser.length>4){
-                        selectedKey.currentState?.insertItem(selectedUser.length,
-                        duration: Duration(microseconds: 500)
-                        );
-                        selectedUser.add(user as User);
-                        user.remove(user);
-                      }
-                    });
+                      selectedUsers.remove(user);
+                      users.add(user);
                     },
-                    child: FadeTransition(
-                      opacity: animation,
-                      child: Container(
-                        padding: EdgeInsets.only(
-                          top: 15,
-                        ),
-                        child: Row(
-                          children: [
-                            SizedBox(
-                              height: 70,
-                              width: 70,
-                              child: CircleAvatar(
-                                backgroundImage: NetworkImage(user[index].image),
-                                backgroundColor: Colors.deepPurpleAccent,),
-                            ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            Column(
-                              children: [
-                                Text(
-                                  user[index].name,style: TextStyle(
-                                  fontWeight: FontWeight.bold
-                                ),
-                                ),
-                                Text(
-                                    user[index].username,
-                                  style: TextStyle(
-                                    color: Colors.black45
-                                  ),
-                                ),
-                              ],
-                            )
-                          ],
+                    child: Container(
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.white, width: 3),
+                        shape: BoxShape.circle,
+                        color: Colors.grey[200],
+                      ),
+                      child: const Center(
+                        child: Icon(
+                          Icons.close,
+                          size: 15,
                         ),
                       ),
                     ),
-                  );
-                },
-              )
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 
-              )
-            ],
+  displayUser({
+    required User user,
+    index,
+    animation,
+  }) {
+    return GestureDetector(
+      onTap: () => {
+        setState(() {
+          if (selectedUsers.length > 4) return;
+
+          listKey.currentState?.removeItem(
+            index,
+                (context, animation) =>
+                displayUser(user: user, index: index, animation: animation),
+            duration: const Duration(milliseconds: 300),
+          );
+
+          selectedListKey.currentState?.insertItem(
+            selectedUsers.length,
+            duration: const Duration(milliseconds: 500),
+          );
+
+          selectedUsers.add(user);
+          users.remove(user);
+        })
+      },
+      child: FadeTransition(
+        opacity: animation,
+        child: Container(
+          padding: const EdgeInsets.only(
+            top: 15,
           ),
+          child: Row(children: [
+            SizedBox(
+              width: 70,
+              height: 70,
+              child: CircleAvatar(
+                backgroundColor: Colors.deepPurpleAccent,
+                backgroundImage: NetworkImage(user.image),
+              ),
+            ),
+            const SizedBox(width: 10),
+            Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(
+                user.name,
+                style: const TextStyle(
+                    color: Colors.black, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                user.username,
+                style: const TextStyle(color: Colors.black45),
+              ),
+            ])
+          ]),
         ),
       ),
     );
