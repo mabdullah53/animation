@@ -3,7 +3,7 @@
 
 ## Features
 
-- Animation
+- Flutter Complete Animation
 
 
   
@@ -14,6 +14,34 @@ Feel free to explore, modify, and integrate these animations into your own proje
 You can customize it further if needed!
 
 ## Getting Started
+
+https://github.com/user-attachments/assets/4c8b5dea-93f9-4d0f-83cc-3fbad6912061
+
+[Animated movie App Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/animated_movie_app)
+
+
+https://github.com/user-attachments/assets/eaf06a5f-f329-460b-9cdb-e2f66d01f0dd
+
+[buttom curve navigation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/buttom%20curve%20navigationn)
+
+
+https://github.com/user-attachments/assets/744d40a9-c268-425a-97e2-e1f94ca84090
+
+[Circular Menu Animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/fab_circular_animation.dart)
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Prerequisites
