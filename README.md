@@ -33,6 +33,18 @@ https://github.com/user-attachments/assets/744d40a9-c268-425a-97e2-e1f94ca84090
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/fab_circular_animation.dart)
 
 
+https://github.com/user-attachments/assets/c2a151a7-5f21-48b5-9268-e7fd18467b7e
+
+[Download button animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/download_animations)
+
+
+
+
+
+
+
+
 
 
 
