@@ -39,6 +39,17 @@ https://github.com/user-attachments/assets/7660e943-774a-4371-9f70-1d55bba93b07
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/download_animations)
 
 
+https://github.com/user-attachments/assets/4ce79cc3-5f79-4fd2-aac0-3d49d42da48f
+
+[Download button animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/routes_aniimations/routes_animations.dart)
+
+
+
+
+
+
+
 
 
 
