@@ -51,6 +51,16 @@ https://github.com/user-attachments/assets/fce9704f-391d-4db6-bcbb-dbd34991fd14
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/scrooll_list)
 
 
+https://github.com/user-attachments/assets/427244e9-d404-4f90-96ac-ba6d898e6d6f
+
+[Swipeper animation animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/swipper_animations)
+
+
+
+
+
+
 
 ### Prerequisites
 
