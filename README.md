@@ -45,6 +45,10 @@ https://github.com/user-attachments/assets/4ce79cc3-5f79-4fd2-aac0-3d49d42da48f
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/routes_aniimations/routes_animations.dart)
 
 
+https://github.com/user-attachments/assets/fce9704f-391d-4db6-bcbb-dbd34991fd14
+
+[Scroll list animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/scrooll_list)
 
 
 
