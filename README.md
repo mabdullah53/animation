@@ -57,7 +57,10 @@ https://github.com/user-attachments/assets/427244e9-d404-4f90-96ac-ba6d898e6d6f
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/swipper_animations)
 
 
+https://github.com/user-attachments/assets/87c908a0-eaf8-4da7-9923-80c222cecd9f
 
+[moving objectanimation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/moving_objects_animations)
 
 
 
