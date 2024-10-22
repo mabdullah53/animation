@@ -64,6 +64,14 @@ https://github.com/user-attachments/assets/8a1f5e30-4838-4643-a182-e6503b35f7c2
 (https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/moving_objects_animations)
 
 
+https://github.com/user-attachments/assets/83214716-df18-4e92-b98d-c54571664cec
+
+[Text Animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/text_aniimation.dart)
+
+
+
+
 
 
 ### Prerequisites
