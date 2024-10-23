@@ -70,6 +70,18 @@ https://github.com/user-attachments/assets/83214716-df18-4e92-b98d-c54571664cec
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/text_aniimation.dart)
 
 
+https://github.com/user-attachments/assets/1129a955-9512-4dbd-afa1-6516e5dc2af9
+
+[swipeable animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/swipeable_button_animation.dart)
+
+
+
+
+
+
+
+
 
 
 
