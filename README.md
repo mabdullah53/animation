@@ -76,6 +76,16 @@ https://github.com/user-attachments/assets/1129a955-9512-4dbd-afa1-6516e5dc2af9
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/swipeable_button_animation.dart)
 
 
+https://github.com/user-attachments/assets/d7a01353-ce4b-4db5-82fe-51da32eb5011
+
+[animated background animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/animated_background.dart)
+
+
+
+
+
+
 
 
 
