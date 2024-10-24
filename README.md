@@ -82,6 +82,36 @@ https://github.com/user-attachments/assets/d7a01353-ce4b-4db5-82fe-51da32eb5011
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/animated_background.dart)
 
 
+https://github.com/user-attachments/assets/6a496b19-ad34-4bef-a09a-94a290670518
+
+[loading animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/all_animations/shimmer_loading_animation)
+
+
+https://github.com/user-attachments/assets/c52e1c6d-41dd-41c7-8aa6-f38facb8477c
+
+[animated builder animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/animatedd_builderr.dart)
+
+
+https://github.com/user-attachments/assets/c53ed10a-ea9d-4ce0-bc05-fc3cd8ef51ea
+
+[hide appbar animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/hidee_appbaar.dart)
+
+
+https://github.com/user-attachments/assets/bf665716-76f8-4f49-8338-513e8bde8717
+
+[newmorphism button animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/newmoephism_button.dart)
+
+
+https://github.com/user-attachments/assets/09dd4a50-b073-47c3-bd70-4d0ea7ce055e
+
+[shopping cart animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/shoping_cart_animation.dart)
+
+
 
 
 
