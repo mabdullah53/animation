@@ -118,9 +118,29 @@ https://github.com/user-attachments/assets/047ed10b-dfb7-4c00-90bf-46d0b070278a
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/foo%20animation/cross_fadee.dart)
 
 
+https://github.com/user-attachments/assets/c3eccc64-e3ec-4640-be91-86d02053a47f
+
+[Three D animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/listt_wheel_scrollview)
 
 
+https://github.com/user-attachments/assets/001f9f80-52ef-42d6-90bf-55d5ebddfc1d
 
+[ripple effect animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/ripple_effectt)
+
+
+https://github.com/user-attachments/assets/dc11b898-4265-47f7-a620-773d5fdad9b2
+
+[cross fade animation Read Code]
+(https://github.com/mabdullah53/animation/tree/main/animationtutorial/lib/transitions/scalee_transition)
+
+
+https://github.com/user-attachments/assets/c1a30f22-05c7-49a7-a9a6-710603773d69
+
+
+[animated opacity Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/foo%20animation/animatedd_opacity.dart)
 
 
 
