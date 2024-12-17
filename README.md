@@ -112,6 +112,15 @@ https://github.com/user-attachments/assets/09dd4a50-b073-47c3-bd70-4d0ea7ce055e
 (https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/all_animations/shoping_cart_animation.dart)
 
 
+https://github.com/user-attachments/assets/047ed10b-dfb7-4c00-90bf-46d0b070278a
+
+[cross fade animation Read Code]
+(https://github.com/mabdullah53/animation/blob/main/animationtutorial/lib/foo%20animation/cross_fadee.dart)
+
+
+
+
+
 
 
 
